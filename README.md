@@ -70,3 +70,47 @@ PORT=5000
 #### Stock
 * GET /api/stock: Obtiene el stock actual
 * POST /api/stock: Actualiza el stock
+
+
+## Estructura del proyecto
+foodtruck-app/
+│
+├── server/
+│   ├── controllers/
+│   │   ├── expenseController.js
+│   │   ├── incomeController.js
+│   │   ├── purchaseController.js
+│   │   ├── saleController.js
+│   │   └── stockController.js
+│   ├── models/
+│   │   ├── Expense.js
+│   │   ├── Income.js
+│   │   ├── Purchase.js
+│   │   ├── Sale.js
+│   │   └── Stock.js
+│   ├── routes/
+│   │   ├── expenseRoutes.js
+│   │   ├── incomeRoutes.js
+│   │   ├── purchaseRoutes.js
+│   │   ├── saleRoutes.js
+│   │   └── stockRoutes.js
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+│
+└── client/
+    ├── src/
+    │   ├── components/
+    │   │   ├── Expenses.js
+    │   │   ├── Incomes.js
+    │   │   ├── Purchases.js
+    │   │   ├── Sales.js
+    │   │   └── Stock.js
+    │   ├── services/
+    │   │   └── api.js
+    │   ├── App.js
+    │   └── index.js
+    ├── public/
+    ├── package.json
+    └── .env
+
