@@ -53,20 +53,20 @@ PORT=5000
 
 #### Gastos
 * GET /api/expenses: Obtiene todos los gastos
-POST /api/expenses: Crea un nuevo gasto
+* POST /api/expenses: Crea un nuevo gasto
 
 #### Ingresos
-GET /api/incomes: Obtiene todos los ingresos
-POST /api/incomes: Crea un nuevo ingreso
+* GET /api/incomes: Obtiene todos los ingresos
+* POST /api/incomes: Crea un nuevo ingreso
 
 #### Compras
-GET /api/purchases: Obtiene todas las compras
-POST /api/purchases: Crea una nueva compra
+* GET /api/purchases: Obtiene todas las compras
+* POST /api/purchases: Crea una nueva compra
 
 #### Ventas
-GET /api/sales: Obtiene todas las ventas
-POST /api/sales: Crea una nueva venta
+* GET /api/sales: Obtiene todas las ventas
+* POST /api/sales: Crea una nueva venta
 
 #### Stock
-GET /api/stock: Obtiene el stock actual
-POST /api/stock: Actualiza el stock
+* GET /api/stock: Obtiene el stock actual
+* POST /api/stock: Actualiza el stock
