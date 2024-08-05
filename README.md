@@ -73,6 +73,7 @@ PORT=5000
 
 
 ## Estructura del proyecto
+ ```text
 foodtruck-app/
 │
 ├── server/
@@ -113,4 +114,4 @@ foodtruck-app/
     ├── public/
     ├── package.json
     └── .env
-
+ ```
